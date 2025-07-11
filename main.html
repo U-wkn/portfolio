@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ハンバーガーボタン -->
+  <button class="menu-toggle" aria-label="メニューを開く">&#9776;</button>
+
+  <!-- ナビゲーション -->
+  <nav class="navbar">
+    <ul>
+      <li><a href="index.html">トップ</a></li>
+      <li><a href="#works">Works</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- トップセクション -->
+  <section id="top" class="section top-section">
+    <div class="intro-text">
+      <h1>wakana's portfolio</h1>
+      <p class="text-center">~ポートフォリオへようこそ~</p>
+    </div>
+  </section>
+
+  <!-- Worksセクション -->
+  <section id="works" class="section works-section">
+    <h2>Works</h2>
+    <div class="works-content">
+      <!-- 作品カードなど -->
+      <p class="text-center">現在、作品は準備中です。もう少しお待ちください。</p>
+    </div>
+  </section>
+
+  <!-- Aboutセクション -->
+  <section id="about" class="section about-section">
+    <h2>About Me</h2>
+  
+    <dl>
+      <dt>氏名：</dt>
+      <dd>内野 稚菜 (うちの わかな)</dd>
+      <dt>生年月日</dt>
+      <dd>2004年12月16日</dd>
+  
+      <dt>学歴・職歴：</dt>
+      <dd>
+        <ul>
+            <li>2021年〜 BigJoe 藤井寺店 ホール勤務</li>
+            <li>
+                2023年〜<br>
+                OCA 大阪デザイン＆テクノロジー専門学校 在学中（2027年3月卒業予定）
+            </li>
+        </ul>
+      </dd>
+  
+      <dt>保有資格：</dt>
+      <dd>
+        <ul>
+          <li>Microsoft Azure AI Fundamentals</li>
+          <li>CompTIA A+</li>
+          <li>基本情報技術者試験：学習中</li>
+        </ul>
+      </dd>
+  
+      <dt>使用言語・ツール：</dt>
+      <dd>
+        <ul>
+          <li>HTML / CSS / JavaScript / PHP / Python</li>
+          <li>VSCode</li>
+        </ul>
+      </dd>
+  
+      <dt>趣味・特技：</dt>
+      <dd>野球・ソフトボール、お花畑鑑賞</dd>
+      <dt>自己紹介文：</dt>
+      <dd>
+        <p>現在は専攻でセキュリティについて学んでいます。<br />
+            苦手な分野も諦めず、資格試験を通じて知識で補えるよう努力し、常に学び続ける姿勢を持っています。<br /><br />
+            また、学業と並行してアルバイトも継続しており、現在はバイトリーダーとして店舗の運営をサポートしています。<br />
+            メンバーと積極的にコミュニケーションを取りながら、円滑な業務が進むよう臨機応変な対応を心がけています。</p>
+        </dd>
+    </dl>
+  </section>
+  
+
+  <!-- Contactセクション -->
+  <section id="contact" class="section contact-section">
+    <h2>Contact</h2>
+    <form>
+      <input type="text" placeholder="お名前" required />
+      <input type="email" placeholder="メールアドレス" required />
+      <textarea placeholder="メッセージ" required></textarea>
+      <button type="submit">送信</button>
+    </form>
+  </section>
+
+  <!-- トップに戻るボタン -->
+  <button id="backToTop" title="トップへ戻る">↑</button>
+
+  <footer class="text-center">&copy; 2025 wakana's portfolio</footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
